@@ -1,0 +1,9 @@
+body {
+	background-color: #eed5d2;
+}
+td {
+	text-align: center;
+}
+td.number {
+	width: 18px;
+}
