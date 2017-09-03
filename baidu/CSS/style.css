@@ -1,0 +1,120 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+header {
+	font-weight:900;
+	height: 40px;
+	width: 100%;
+	
+
+}
+.wrapper {
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+
+}
+.wrapper a{
+	color: #333;
+	margin-left: 15px;
+	font-size:13px;
+}
+.wrapper a:hover{
+	color: #00c;
+}
+
+.content {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.content-wrapper {
+	position: relative;
+	top: 30px;
+
+}
+
+.logo {
+	height: 129px;
+	width: 270px;
+	position: relative;
+	bottom: 10px
+
+}
+
+.content-wrapper .input {
+	height: 34px;
+	width:538px;
+	background-color: transparent;
+	border: 1px solid #b6b6b6;
+	position: relative;
+	top: -2px;
+	left: 5px;
+}
+
+.content-wrapper input: hover {
+	border: 1px solid #999;
+}
+
+.content-wrapper .submit-button {
+	height: 36px;
+	width: 100px;
+	background-color: #3385ff;
+	font-size: 15px;
+	border:none;
+	color: #fff;
+
+}
+
+.submit-button :hover {
+	background-color: #317ef3;
+}
+
+
+
+footer {
+	height:233px;
+	width: 100%;
+	position: absolute;
+	bottom: 0; 
+	text-align: center;
+	font-size: 10px;
+	
+}
+
+.code {
+	height: 60px;
+	width: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 6px;
+}
+
+.content-wrapper p {
+	color: #666;
+	font-weight:900;
+	margin-bottom: 22px;
+}
+
+.content-wrapper .text{
+	color: #999;
+	margin-left: 25px;
+
+}
+
+.content-wrapper a {
+	color: #999;
+	margin-left: 25px;
+}
+
+
+
+.first-line {
+	margin-bottom: 7px;
+}
+

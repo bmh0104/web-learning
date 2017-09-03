@@ -1,0 +1,42 @@
+* {
+	margin:0;
+	padding: 0;
+	
+
+}
+
+div {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	box-shadow: 0 0 15px #7c7a7e;
+
+}
+.top {
+	background-color: #98fB98;
+	margin:-155px 0 0 -50px;
+}
+.left {
+	background-color: #adff2f;
+	margin:-50px 0 0 -155px;
+}
+.mid {
+	background-color: #e8e8e8;
+	margin: -50px 0 0 -50px;
+	line-height: 100px;
+    text-align: center;
+}
+.right {
+	background-color: #76ee00;
+	margin: -50px 0 0 55px;
+}
+.bottom {
+	background-color: #71c671;
+	margin: 55px 0 0 -50px;
+}
+.log {
+	
+	vertical-align: middle;
+}
