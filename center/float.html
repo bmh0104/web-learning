@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.first {
+			width: 500px;
+			height: 500px;
+			background-color: #666fff;
+		}
+		.second {
+			background-color: #123499;
+			position: relative;
+			left: 50%;
+			top: 50%;
+			float: left;
+			/*float的作用在于让second变成行内元素，让它的内容 third 和它一样大*/
+			/*width始终和内容一样宽，而height和包含在内部的东西一样高*/
+		}
+		.third {
+			/*width: 200px;
+			height: 200px;*/
+			background-color: #ffeeff;
+			margin-left: -50%;
+			margin-top: -50%;
+
+		}
+		p {
+			background-color: #ee0fff;
+			margin-bottom: 0;
+			margin-top: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="first">
+		<div class="second">
+			<div class="third">
+				
+					<p>aaaa</p>
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
